@@ -45,7 +45,7 @@ function iniciarTotem() {
     } else {
         console.log("Altura do cliente: " + altura);
     }
-
+    if(idade>=12 && altura>=1.50)
     console.log("Olá, " + nome + "! Cadastro validado com sucesso."
     );
 
